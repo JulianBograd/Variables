@@ -1,0 +1,2 @@
+# Variables
+Entendiendo las variables
