@@ -9,3 +9,34 @@ console.log(producto);
 //JavaScript es un lenguaje de tipo dinámico, no se especifica tipo de dato
 producto = 20;
 console.log(producto);
+
+//Se pueden inicializar sin valor y asignarlo después
+var dispoible;
+disponible = true;
+
+disponible = false;
+
+// Inicializar múltiples variables.
+var categoria = "Computadoras";
+var marca = "Marca Famosa";
+var calificación = 5;
+
+// Puedo inicializar múltiples variables cambiando el ";" por "," y ahorrar escribirme el código.
+var categoría = "Computadoras",
+    marca = "Marca Famosa",
+    calificación = 5;
+console.log(categoría, marca, calificación);
+
+//Las variables no pueden iniciar con números
+var 99días;
+var días99;
+
+var 01_;
+var _01;
+var _usuario;
+var __usuario;
+
+//Formas de llamar a las variables
+var nombreProducto;
+var nombre_producto;
+var nombre_producto_categoría_precio;
