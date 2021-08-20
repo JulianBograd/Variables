@@ -1,0 +1,11 @@
+// Inicializar una variable con un valor
+var producto = "monitor de 24 pulgadas";
+console.log(producto);
+
+//Las variables se puede reasignar
+producto = "Monitor de 19 pulgadas";
+console.log(producto);
+
+//JavaScript es un lenguaje de tipo dinámico, no se especifica tipo de dato
+producto = 20;
+console.log(producto);
